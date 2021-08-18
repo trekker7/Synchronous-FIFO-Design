@@ -5,9 +5,13 @@ In this Project we have designed and verified a synchronous FIFO. It is dual por
 read and write operation.
 
 Full and Empty generation Condition-
+
 Read and Write pointer has width of Log2(FIFO_DEPTH)+1
+
 MSB is used to detect Full and Empty condition
+
 If Read and Write pointer are equal FIFO is Empty
+
 if Read and Write pointer’s MSB differ but rest bit are same FIFO is Full
 
 Pseudorandom Testing-
